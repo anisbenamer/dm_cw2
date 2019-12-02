@@ -1,0 +1,62 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     train01-weka.filters.unsupervised.attribute.NumericToNominal-R2305
+Instances:    506
+Attributes:   2305
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 89118
+	Merit of best subset found:    0.229
+
+Attribute Subset Evaluator (supervised, Class (nominal): 2305 2305):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 134,380,471,622,706,758,988,990,1052,1116,1225,1273,1274,1321,1322,1369,1370,1371,1377,1472,1508,1519,1556,1569,1649,1690,1726,1745,1746,1849,1850,1866,1886,2066 : 34
+                     134
+                     380
+                     471
+                     622
+                     706
+                     758
+                     988
+                     990
+                     1052
+                     1116
+                     1225
+                     1273
+                     1274
+                     1321
+                     1322
+                     1369
+                     1370
+                     1371
+                     1377
+                     1472
+                     1508
+                     1519
+                     1556
+                     1569
+                     1649
+                     1690
+                     1726
+                     1745
+                     1746
+                     1849
+                     1850
+                     1866
+                     1886
+                     2066
+
